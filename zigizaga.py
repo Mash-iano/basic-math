@@ -1,19 +1,8 @@
-def add(num1, num2):
-    return num1 + num2  # No need for int()
+# second impelmentation as a module
+from functions import add, subtract, multiply, divide
 
-def subtract(num1, num2):
-    return num1 - num2  # No need for int()
-
-def multiply(num1, num2):
-    return num1 * num2  # No need for int()
-
-def divide(num1, num2):
-    return num1 / num2  # Automatically returns float if needed
-
-# Using different variable names
-addition = add(2, 3)
-difference = subtract(2, 3)
-product = multiply(2, 3)
-quotient = divide(2, 3)  # Changed variable name
-
-print(addition, difference, product, quotient)
+sum = add(2,3)
+difference = subtract(2,3)
+product = multiply(2,3)
+division = divide(2,3)
+print(sum,difference,product,division)
